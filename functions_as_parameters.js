@@ -8,7 +8,7 @@ var makeMoreExciting = function(element) {
 // pass in this function, by its name, as the argument to the .map function
 array.map(makeMoreExciting);
 
-// pass in this function, without a name, as the argument to the .map function
+// pass in this function, without a name (anonymously), as the argument to the .map function
 array.map(function(name) {
   return name + "!!!!!!";
 });
