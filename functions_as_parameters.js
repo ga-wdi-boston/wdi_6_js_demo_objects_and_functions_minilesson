@@ -22,7 +22,7 @@ array.map(function(name) {
 ////////////////////////////////
 
 // define a function called showAlert
-function showAlert() {
+var showAlert = function() {
   alert("Hi");
 }
 
