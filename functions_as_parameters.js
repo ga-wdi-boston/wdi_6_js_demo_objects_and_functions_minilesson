@@ -28,3 +28,9 @@ function showAlert() {
 
 // pass in this function as an argument/parameter in jQuery
 $('#my-button').on('click', showAlert);
+
+// when passing in a function as an argument, DON'T use ()!
+// because you are passing in the whole code block of the function, not its return value
+// so this is WRONG: $('#my-button').on('click', showAlert());
+// and this is RIGHT: $('#my-button').on('click', showAlert;
+
